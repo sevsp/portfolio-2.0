@@ -8,6 +8,9 @@ body{
     --color-background: #090A0B;
     --color-secundary: #E6E6E6;
     --color-card: #18181B;
+    --color-greyFont: #A6A6A6;
+    --color-borderGrey: #303036;
+    --color-techBg: #242428;
 }
 
 @layer utilities {

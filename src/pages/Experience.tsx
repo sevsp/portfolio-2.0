@@ -19,7 +19,7 @@ function Experience() {
                 <ExperienceCard
                     link="https://www.bancontinental.com.py/#/"
                     position="Frontend Web Developer"
-                    company="Banco Continental S.A.E.C.A"
+                    company="Continental Bank S.A.E.C.A"
                     companyPng={continentalLogo}
                     date="03/2024 - Present"
                     work={[

@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: #090A0B;
 }
@@ -24,9 +28,9 @@ body{
 
   @keyframes tipado {
     from {
-      width: 0ch;
+      width: 0%;
     }to {
-      width: 50%;
+      width: 30%;
     }
 
   }

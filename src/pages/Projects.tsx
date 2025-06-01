@@ -7,9 +7,9 @@ import blogCafePreview from "../assets/blogCafePreview.png"
 
 function Projects() {
     return(
-        <section className="flex flex-col items-center">
+        <section id="projects" className="flex flex-col items-center pt-24 mx-5">
             <h2 className="text-secundary mb-10 text-3xl font-bold">Projects</h2>
-            <div className="flex flex-col items-center gap-6">
+            <div className="flex flex-col md:flex-row flex-wrap justify-center gap-6">
                 <ProjectsCard 
                     image={passwordGeneratorPreview}
                     title="Password Generator"

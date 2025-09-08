@@ -1,5 +1,5 @@
 import ProjectsCard from "../components/ProjectsCard";
-import passwordGeneratorPreview from "../assets/passwordGeneratorPreview.png";
+import ecommercePreview from "../assets/ecommercePreview.png";
 import adviceGeneratorPreview from "../assets/adviceGeneratorPreview.png"
 import blogCafePreview from "../assets/blogCafePreview.png"
 
@@ -11,11 +11,11 @@ function Projects() {
             <h2 className="text-secundary mb-10 text-3xl font-bold">Projects</h2>
             <div className="flex flex-col md:flex-row flex-wrap justify-center gap-6">
                 <ProjectsCard 
-                    image={passwordGeneratorPreview}
-                    title="Password Generator"
-                    description="A simple and customizable password generator that allows users to create secure passwords based on selected criteria such as length, numbers, symbols, and uppercase letters. Built with a clean interface and responsive design."
+                    image={ecommercePreview}
+                    title="Shout Out E-Commerce"
+                    description="Shout Out is a modern e-commerce built with React and Tailwind, offering stylish accessories with a clean, fast, and responsive shopping experience."
                     technologies={["JavaScript", "React", "Tailwindcss"]}
-                    link="https://passwordgeneratormendietadev.netlify.app/"
+                    link="https://shoutoutg.netlify.app/"
                 />
                 <ProjectsCard 
                     image={adviceGeneratorPreview}
